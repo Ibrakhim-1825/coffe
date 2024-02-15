@@ -1,0 +1,39 @@
+.header{
+    &__block{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__list{
+        display: none;
+    }
+    &__menu{
+        background-repeat: no-repeat;
+        background-image: url("/img/header_menu.svg");
+        border: none;
+        max-width: 16px;
+        height: 16px;
+        background-color: transparent;
+    }
+}
+@media screen and (min-width: 768px) {
+    .header{
+       &__list{
+        display: flex;
+        gap: 32px;
+       } 
+
+       &__link{
+        color: $grey;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 15px;
+        letter-spacing: 0.92px;
+        text-transform: uppercase;
+       }
+       &__menu{
+        display: none;
+       }
+    }
+    
+}

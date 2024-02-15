@@ -1,0 +1,13 @@
+@mixin text ($color) {
+    color:$color;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
+@mixin title {
+    color: #ffffff;
+    font-family: Fraunces 9pt;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 32px;
+}
