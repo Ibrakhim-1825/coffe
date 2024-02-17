@@ -131,7 +131,6 @@ body {
     font-weight: 700;
     line-height: 15px;
     letter-spacing: 0.92px;
-    text-transform: uppercase;
   }
   .header__menu {
     display: none;
@@ -153,7 +152,7 @@ body {
 }
 .hero_title {
   color: #FEFCF7;
-  font-family: Fraunces 9pt;
+  font-family: "Fraunces";
   font-size: 40px;
   font-weight: 900;
   line-height: 40px;
@@ -206,7 +205,7 @@ body {
 }
 .choose_number {
   color: #FDD6BA;
-  font-family: Fraunces 9pt;
+  font-family: "Fraunces";
   font-size: 72px;
   font-weight: 900;
   line-height: 72px;
@@ -220,7 +219,7 @@ body {
 }
 .choose_title {
   color: #FEFCF7;
-  font-family: Fraunces 9pt;
+  font-family: "Fraunces";
   font-size: 28px;
   font-weight: 900;
   line-height: 32px;
@@ -297,7 +296,7 @@ body {
 }
 .want_title {
   color: #83888F;
-  font-family: Fraunces 9pt;
+  font-family: "Fraunces";
   font-size: 24px;
   font-weight: 900;
   line-height: 28px;
@@ -313,7 +312,7 @@ body {
 }
 .want_sub__title {
   color: #333D4B;
-  font-family: Fraunces 9pt;
+  font-family: "Fraunces";
   font-size: 24px;
   font-weight: 900;
   line-height: 32px;
@@ -646,7 +645,7 @@ body {
 }
 .deliver_sub__title {
   color: #333D4B;
-  font-family: Fraunces 9pt;
+  font-family: "Fraunces";
   font-size: 24px;
   font-weight: 900;
   line-height: 32px;
